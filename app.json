@@ -1,0 +1,13 @@
+{
+  "name": "NextJS with Redux",
+  "description": "Study of NextJS with Redux",
+  "repository": "https://github.com/reginaldoMorais/react-redux-nextjs",
+  "logo": "",
+  "keywords": [
+    "node",
+    "nextjs",
+    "react",
+    "redux"
+  ],
+  "image": "heroku/nodejs"
+}

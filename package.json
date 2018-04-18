@@ -1,17 +1,29 @@
 {
   "name": "hello-next",
   "version": "1.0.0",
-  "description": "",
+  "description": "Study of NextJS with Redux",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next build && NODE_ENV=production node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "node",
+    "nextjs",
+    "react",
+    "redux"
+  ],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/reginaldoMorais/react-redux-nextjs"
+  },
   "dependencies": {
     "express": "^4.16.3",
     "isomorphic-unfetch": "^2.0.0",
